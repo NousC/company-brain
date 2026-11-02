@@ -9,7 +9,7 @@ description: Set up the company brain once, for the whole company. Use when an o
 Run once, by an owner or admin. It shapes what they already have. It doesn't make them start over.
 
 1. **Check who's running this.** Call `whoami`. Stop unless they're an owner or admin.
-2. **Read before asking.** Read this repo, any existing second brain they point to, and what OpenNous already knows: `read_intelligence`, `get_insights` and recent calls through `query`.
+2. **Read before asking.** Read this repo, any existing second brain they point to, and what OpenNous already knows: `insights` and recent calls through `activity`.
 3. **Map it.** Show how what they have fits `README.md`: what's already there, what's missing, what to move. Doctrine and `CHANGELOG.md` are the only must-haves.
 4. **Draft from evidence.** Write `Doctrine/Doctrine.md` and `Strategy/Strategy.md` from real calls and won and lost deals, and mark every inference. Ask only what the evidence can't answer.
 5. **Name the people.** Fill `People/Seats.md` with who works here and what they own.

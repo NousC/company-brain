@@ -2,7 +2,7 @@
 
 _Find what to hand off. Use when someone asks "what can I delegate", "what can I automate", "what do I keep doing by hand", or "find me a skill"._
 
-Look at what repeats in their week: call `tasks`, `attention` and `my_desk`, and think about what they keep asking you for. Ask what they dread doing.
+Look at what repeats in their week: call `tasks`, `priorities` and `my_desk`, and think about what they keep asking you for. Ask what they dread doing.
 
 List up to five opportunities, one line each: the job, how often it comes up, and which kind it is:
 

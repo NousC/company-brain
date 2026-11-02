@@ -13,6 +13,6 @@ This skill proposes. It never applies a change.
    - Owners who left or changed role, from `People/Seats.md` and Settings → Team.
    - Skills or pins that mention people, stages or pages that no longer exist, from `assign`.
    - Pushed documents older than their source in this repo, from `search` and git history.
-   - Playbook claims that `read_intelligence` or recent calls now contradict.
+   - Playbook claims that `insights` or recent calls now contradict.
 3. **Default to no change.** Propose one only for something broken, something that drifted, or a real change in how the business works.
 4. **Report** each proposal with what changed, the evidence and where to fix it. Repo fixes wait for the operator's yes; anything agents read goes through `rollout`.
