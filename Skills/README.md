@@ -15,7 +15,7 @@ Operator skills live in `.claude/skills/`, where Claude Code loads them. Team sk
 
 ## Team
 
-`Skills/starter/` has five to adapt and assign: `my-day`, `meeting-prep`, `after-call`, `follow-up`, `account-plan`. `delegate` finds what to hand to an agent, as a skill or a RevPlay. Assign it like the others.
+`Skills/starter/` has six to adapt and assign to everyone: `my-day`, `meeting-prep`, `after-call`, `follow-up`, `account-plan` and `delegate`. `delegate` finds what a person could hand to an agent, then builds it as a skill or a RevPlay.
 
 ## The bar for a skill
 
