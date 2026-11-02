@@ -36,5 +36,4 @@ Nothing syncs between this repo and OpenNous. When something is ready for the te
 
 1. Click **Use this template** and keep your copy private. It will hold strategy and candid notes.
 2. Open it in Claude Code and approve the `opennous` server, signing in as yourself.
-3. Fill in `Doctrine/Doctrine.md` and `Strategy/Strategy.md`.
-4. Run `/push-document` on the first file your team should see.
+3. Run `/team-setup`. It reads what you have and sets up the rest.
