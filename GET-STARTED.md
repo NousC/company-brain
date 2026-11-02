@@ -41,13 +41,17 @@ Wait for a yes. Change nothing before it. That's the only approval you need befo
 
 The template you cloned to read this is never where you work. Never push to `NousC/company-brain`: it's public.
 
+**Check you can save first.** Web agents often run in a temporary session that can't create repos or push, and anything left there is lost when it ends. Before you write anything, find out if you can push to the repo you'll use. If you can't, stop and give them these choices:
+
+1. **Run it on their machine (best):** paste the same line into Claude Code or another agent there.
+2. **Give this session access:** they create the repo, grant this agent push access, and send you the link. For a new repo, that's **Use this template** on https://github.com/NousC/company-brain, then **Private**.
+3. **Carry on anyway:** you build here, and at the end hand them everything as a `git bundle` or a zip. Say plainly that it isn't saved until they download it.
+
 **New repo:**
 
 ```
 gh repo create <owner>/<company>-brain --private --template NousC/company-brain --clone
 ```
-
-If you can't run that, ask them to click **Use this template** on GitHub, choose **Private**, and send you the link. Then clone it.
 
 **Upgrade:** work in their repo, on a new branch called `company-brain-setup`. Clone it first if it isn't in this folder. Their main branch doesn't change until they merge.
 
@@ -71,7 +75,7 @@ Commit and push when it's done. On an upgrade, open a pull request if there's a 
 
 ## 5. Connect OpenNous
 
-Call `whoami`. If it works, say which workspace you're connected to and go to step 6. If it suggests an onboarding skill, ignore that. This guide covers it.
+Call `whoami`. If it works, say which workspace you're connected to and go to step 6.
 
 If it doesn't work, tell them what OpenNous adds:
 
@@ -94,4 +98,4 @@ Do the second part of `team-setup`, **Share**.
 
 Call the `start` tool and follow what it returns. It shows what's connected and what's in the workspace, sets up their automations, and runs one so they can see it work. Don't repeat anything you've already covered.
 
-Finish with what's done, then the single next step. If their history is still syncing, that step is to come back when it's done: read their real calls and deals with `insights` and `activity`, compare them with the drafts, and propose what to change. Change nothing without a yes.
+Finish with what's done, then the single next step. If their history is still syncing, that step is to come back when the app says it's done and run `brain-health`, which checks the drafts against their real calls and deals.

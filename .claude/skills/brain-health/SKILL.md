@@ -1,6 +1,6 @@
 ---
 name: brain-health
-description: Find what's gone stale in the brain. Use weekly, or when an operator says "what's out of date" or "check the brain".
+description: Find what's gone stale in the brain. Use weekly, once history has synced after setup, or when an operator says "what's out of date" or "check the brain".
 ---
 
 
