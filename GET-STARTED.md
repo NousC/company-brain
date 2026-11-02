@@ -94,4 +94,4 @@ Do the second part of `team-setup`, **Share**.
 
 Call the `start` tool and follow what it returns. It shows what's connected and what's in the workspace, sets up their automations, and runs one so they can see it work. Don't repeat anything you've already covered.
 
-Finish with what's done, then the single next step.
+Finish with what's done, then the single next step. If their history is still syncing, that step is to come back when it's done: read their real calls and deals with `insights` and `activity`, compare them with the drafts, and propose what to change. Change nothing without a yes.
