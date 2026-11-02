@@ -12,7 +12,7 @@ Markdown is the source of truth and git is the history.
 | **OpenNous** | Customer truth from calls, email and CRM, plus the documents you push | Everyone, in the app and over MCP |
 | **Their agents** | Where the work happens: Claude, Grok Bot, ChatGPT | Everyone |
 
-Nothing syncs on its own. When something is ready for the team, an operator pushes it into **Documents** in OpenNous and chooses who can see it: only them, operators or everyone. People read it in the sidebar, and their agents read it through the `documents` tool. Change it here and push again to send the next version.
+Nothing syncs between this repo and OpenNous. When something is ready for the team, an operator pushes it into **Documents** with `/push-document`, or creates it directly in the app, and chooses who can see it: only them, operators or everyone. People read it in the sidebar, and their agents read it through the `documents` tool. To send a new version, change it here and push again.
 
 ## What goes where
 
