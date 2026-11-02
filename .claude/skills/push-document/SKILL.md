@@ -14,9 +14,9 @@ A document reaches the team only when an operator pushes it. Pushing the same ti
    - `operators`: owners and admins
    - `everyone`: the whole team and their agents
    - `only_me`: just this person
-5. **Choose the folder:** Initiatives, Strategy, Doctrine, Objections, or the name they give.
+5. **The folder is where the file lives.** `Playbooks/objection-playbook.md` goes in Playbooks, and the folder is made if it's new. Never choose one or ask. A file at the repo's root goes in `General`.
 6. **Show the title, folder and audience,** and wait for a yes.
-7. **Push it:** call `documents` with `title`, `folder`, `markdown` and `shared_with`. Send the whole file.
+7. **Push it:** call `documents` with `path`, `title`, `markdown` and `shared_with`. Send the whole file. Pass `folder` only for a file at the root.
 8. **Log it:** add a line to `CHANGELOG.md` as `date · what changed · who it reached`.
 
 The repo stays the source. Nothing syncs back, so to change a document, edit it here and push again.
