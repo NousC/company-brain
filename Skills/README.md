@@ -6,7 +6,7 @@ Operator skills live in `.claude/skills/`, where Claude Code loads them. Team sk
 
 | Skill | Job |
 |---|---|
-| `team-setup` | Sets up the brain once, from what you already have |
+| `team-setup` | Builds the brain once from what you already have, then shares it with the team |
 | `push-document` | Pushes a document into OpenNous and sets who can see it |
 | `rollout` | Previews, applies and records a skill or pin |
 | `audit` | Compares the plan with what's really happening |

@@ -4,6 +4,8 @@ Read this at the start of every session. This repo is the company's second brain
 
 Read `OVERVIEW.md` first. `README.md` says what goes where.
 
+If `OVERVIEW.md` still says `YYYY-MM-DD`, this brain isn't set up yet. Follow `GET-STARTED.md`.
+
 ## Rules
 
 1. **Nothing gets deleted.** Supersede it or move it. Git keeps the history.

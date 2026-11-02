@@ -19,4 +19,4 @@ None yet. See `DECISIONS.md`.
 
 ## Needs attention
 
-- Fill in `Doctrine/Doctrine.md` and `Strategy/Strategy.md`.
+- Follow `GET-STARTED.md`.
