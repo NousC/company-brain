@@ -28,6 +28,6 @@ What we build and run for them, and what "done" looks like for the first scope.
 
 ## Links
 
-- OpenNous account: <link to the record in the workspace>
+- Ownable account: <link to the record in the workspace>
 - [Tech Stack & Access](Tech%20Stack%20%26%20Access.md)
 - [Working Documents](Working%20Documents/)

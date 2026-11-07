@@ -1,5 +1,5 @@
 {
   "mcpServers": {
-    "opennous": { "type": "http", "url": "https://mcp.opennous.cloud/mcp" }
+    "ownable": { "type": "http", "url": "https://mcp.opennous.cloud/mcp" }
   }
 }

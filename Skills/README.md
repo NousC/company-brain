@@ -1,13 +1,13 @@
 # Skills
 
-Operator skills live in `.claude/skills/`, where Claude Code loads them. Team skills live in OpenNous: assign one with `/rollout` and each person's agent reads the current version through `my_desk`, with no file to install.
+Operator skills live in `.claude/skills/`, where Claude Code loads them. Team skills live in Ownable: assign one with `/rollout` and each person's agent reads the current version through `my_desk`, with no file to install.
 
 ## Operators
 
 | Skill | Job |
 |---|---|
 | `team-setup` | Builds the brain once from what you already have, then shares it with the team |
-| `push-document` | Pushes a document into OpenNous and sets who can see it |
+| `push-document` | Pushes a document into Ownable and sets who can see it |
 | `rollout` | Previews, applies and records a skill or pin |
 | `audit` | Compares the plan with what's really happening |
 | `brain-health` | Finds what's gone stale, and only proposes fixes |

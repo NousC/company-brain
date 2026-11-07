@@ -1,6 +1,6 @@
 # ICP
 
-_Who you sell to, and how every account is scored. Push it to OpenNous with `set_icp`. Weights are a judgment call: propose them, then let the operator change them._
+_Who you sell to, and how every account is scored. Push it to Ownable with `set_icp`. Weights are a judgment call: propose them, then let the operator change them._
 
 ## How the score works
 
